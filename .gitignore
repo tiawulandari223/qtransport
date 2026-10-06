@@ -1,0 +1,9 @@
+# secrets
+.env
+
+# database (regenerates + reseeds on first request)
+storage/*.sqlite
+storage/*.sqlite-*
+
+# generated reports (re-generate from Report Center)
+storage/reports/*
